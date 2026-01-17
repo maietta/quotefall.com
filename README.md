@@ -1,38 +1,32 @@
-# sv
+# Quotefall.com
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+A premium, interactive Quotefall (Dropquotes) puzzle game built with SvelteKit.
 
-## Creating a project
+**Note:** This is a placeholder website showcasing a simple "vibe coded" application that took less than 10 minutes to build from scratch.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Features
 
-```sh
-# create a new project in the current directory
-npx sv create
+- ✨ **Dynamic Puzzle Generation**: Reconstructs quotes into a vertical "drop" grid.
+- 🔐 **Obfuscated Logic**: Solution data is hashed and encoded to prevent easy peeking.
+- 🎭 **Cinematic Animations**: Letters fall from above the viewport into their starting positions.
+- 🎨 **Premium UI**: Modern dark theme with glassmorphism and Tailwind CSS.
+- 🏆 **Scoring System**: Points for correct placements, penalties for removals.
+- 🤖 **Animated Solver**: Watch the puzzle solve itself with a staggered "falling" effect.
 
-# create a new project in my-app
-npx sv create my-app
-```
+## Tech Stack
 
-## Developing
+- **Framework**: SvelteKit (Svelte 5 Runes)
+- **Styling**: Tailwind CSS
+- **Animations**: Svelte Transitions + Canvas Confetti
+- **Deployment**: Optimized for modern static/serverless hosting.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Vibe Coded By
 
-```sh
-npm run dev
+**Nick Maietta**
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+- X: [@nickjmaietta](https://x.com/nickjmaietta)
+- GitHub: [maietta/quotefall.com](https://github.com/maietta/quotefall.com)
 
-## Building
+## License
 
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+This project is licensed under the **O'Saasy License** - see the [LICENSE](LICENSE) file for details. This license permits free use and modification but prohibits direct SaaS competition.

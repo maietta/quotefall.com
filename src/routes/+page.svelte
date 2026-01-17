@@ -309,6 +309,29 @@
 				>
 					Got it!
 				</button>
+
+				<div class="border-t border-slate-800 pt-4 text-center">
+					<p class="text-sm text-slate-500">
+						Vibe coded by <a
+							href="https://x.com/nickjmaietta"
+							target="_blank"
+							class="text-sky-400 transition-colors hover:text-sky-300">Nick Maietta</a
+						>
+					</p>
+					<div class="mt-2 flex justify-center gap-4 text-xs font-medium text-slate-600">
+						<a
+							href="https://github.com/maietta/quotefall.com"
+							target="_blank"
+							class="transition-colors hover:text-slate-400">Source Code</a
+						>
+						<span>•</span>
+						<a
+							href="https://x.com/nickjmaietta"
+							target="_blank"
+							class="transition-colors hover:text-slate-400">@nickjmaietta</a
+						>
+					</div>
+				</div>
 			</div>
 		</div>
 	{/if}
